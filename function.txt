@@ -1,0 +1,25 @@
+Client ->	1.productist
+			2.productbycategory
+			3.productdetail
+			4.searchbyname
+			5.addtocart
+			6.editcart
+			7.user_register
+			8.user_login
+			9.checkout_order
+			10.check_order_history
+			11.check_order_status
+
+
+Admin	->	1.Manage_Products
+			2.Manage_sales_promotion
+			3.Manage_orders
+			4.Check_order_status
+			5.Report
+
+
+
+Tables	->	1.products(	id,product_code,product_name,product_category_id,product_photo,product_price,product_status,product_detail,created_by,updated_by,created_at,updated_at)
+			2.users(id,user_emil,user_name,user_phone,user_adress,user_password,user_role,created_by,updated_by,created_at,updaed_at);
+		3.	product_categories(id,category_name',created_by,updated_by,created_at, updated_at);
+		4.suppliers(supplier_name,supplier_address,supplier_phone,)
